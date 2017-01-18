@@ -1,0 +1,28 @@
+{
+    "name": "incvisio/sso",
+    "description": "Simple Single Sign-On for PHP",
+    "keywords": ["sso", "auth", "php"],
+    "license": "MIT",
+    "homepage": "http://www.incvisio.com",
+    "authors": [
+        {
+            "name": "Max Admaykin",
+            "email": "admaykin@gmail.com",
+            "homepage": "http://www.incvisio.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/admaykin/SSO/issues",
+        "source": "https://github.com/admaykin/SSO"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "desarrolla2/cache": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Incvisio\\": "src/",
+            "Invisio\\SSO\\": "src/"
+        }
+    }
+}
